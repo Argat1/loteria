@@ -10,9 +10,10 @@ using Xamarin.Forms.Xaml;
 
 namespace loteria
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-        //[XamlCompilation(XamlCompilationOptions.Compile)]
+        
         public MainPage()
         {
             InitializeComponent();
