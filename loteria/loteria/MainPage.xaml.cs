@@ -12,7 +12,7 @@ namespace loteria
 {
     public partial class MainPage : ContentPage
     {
-        [XamlCompilation(XamlCompilationOptions.Compile)]
+        //[XamlCompilation(XamlCompilationOptions.Compile)]
         public MainPage()
         {
             InitializeComponent();
